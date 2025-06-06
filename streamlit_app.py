@@ -18,7 +18,7 @@ elif selected_season == "Last Month":
 else:
     start_date = None  # For full season
 
-# --- Fetch Data ---
+# --- Fetch Data --
 if start_date is None:
     pitcher_dat = pitching_stats(int(selected_season), int(selected_season), qual=0)
     hitter_dat = batting_stats(int(selected_season), int(selected_season), qual=0)
