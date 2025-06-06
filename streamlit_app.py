@@ -107,7 +107,7 @@ pitcher_data = pd.merge(pitcher_dat, pitcher_positions[['Name', 'Team', 'Pos']],
 #Replace Lourdes Gurriel with Lourdes Gurriel Jr., Michael Harris with Michael Harris II, Nick Kurtz with Nicholas Kurtz
 #Replace Ronald Acuna with Ronald Acuna Jr., Victor Scott with Victor Scott II, Vladimir Guerrero with Vladimir Guerrero Jr., 
 #Replace Vladimir Guerrero with Vladimir Guerrero Jr., Zach Dezenzo with Zachary Dezenzo
-hitter_positions = pd.read_csv("/workspaces/fantasybaseball/Player Positions.csv")
+hitter_positions = pd.read_csv("Player Positions.csv")
 name_mistakes_hitter = {
     'Jack WInkler': 'Jack Winkler',
 
