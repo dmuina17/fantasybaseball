@@ -1,3 +1,5 @@
+pip install pybaseball
+
 import streamlit as st
 import pandas as pd
 from pybaseball import pitching_stats, batting_stats, pitching_stats_range, batting_stats_range
