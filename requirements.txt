@@ -1,1 +1,5 @@
 streamlit
+pybaseball
+pandas
+numpy
+# add any other packages you're using (e.g., matplotlib, seaborn, etc.)
