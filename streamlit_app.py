@@ -28,7 +28,7 @@ else:
     pitcher_dat = pitching_stats_range(start_str, end_str)
     hitter_dat = batting_stats_range(start_str, end_str)
 
-pitcher_positions = pd.read_csv('/workspaces/fantasybaseball/pitcher_positions.csv')
+pitcher_positions = pd.read_csv('pitcher_positions.csv')
 pitcher_positions.rename(columns={'ESPN': 'Pos'}, inplace=True)
 
 # Changes to pitcher_dat
